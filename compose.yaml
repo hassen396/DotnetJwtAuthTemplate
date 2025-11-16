@@ -1,0 +1,7 @@
+﻿services:
+  dotnetjwtauthtemplate:
+    image: dotnetjwtauthtemplate
+    build:
+      context: .
+      dockerfile: DotnetJwtAuthTemplate/Dockerfile
+
